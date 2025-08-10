@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhanced HTML5 Content - PLP Student Project</title>
+  </head>
+  <body>
+    <h1>Types of Cars</h1>
+    <p>
+      This is a PLP student project showing HTML5 lists, tables, media, and
+      forms.
+    </p>
+
+    <!-- Lists -->
+    <h2>Popular Makes</h2>
+    <ul>
+      <li>Toyota</li>
+      <li>Mazda</li>
+      <li>Ferrari</li>
+    </ul>
+
+    <h2>Expensive Cars</h2>
+    <ol>
+      <li>Rolls-Royce</li>
+      <li>Pagani Zonda</li>
+      <li>Bugatti</li>
+    </ol>
+
+    <h2>Countries and Cities</h2>
+    <ul>
+      <li>
+        Countries
+        <ul>
+          <li>Kenya</li>
+          <li>Nigeria</li>
+          <li>South Africa</li>
+        </ul>
+      </li>
+      <li>
+        Cities
+        <ul>
+          <li>Nairobi</li>
+          <li>Juba</li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Table -->
+    <h2>Car Types Table</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Type of Car</th>
+          <th>Price (USD)</th>
+          <th>Year Introduced</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sports Car</td>
+          <td>$262,000</td>
+          <td>2015</td>
+        </tr>
+        <tr>
+          <td>Electric Car</td>
+          <td>$75,000</td>
+          <td>2012</td>
+        </tr>
+        <tr>
+          <td>SUV</td>
+          <td>$105,000</td>
+          <td>1970</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Media -->
+    <h2>Media</h2>
+    <img src="pexels-pixabay-164634.jpg" alt="Cars" width="400" />
+
+    <!-- Form -->
+    <h2>Contact Form</h2>
+    <form action="#" method="post" autocomplete="on">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Full Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@email.com"
+          required
+        /><br /><br />
+
+        <label for="dob">Date of Birth:</label><br />
+        <input type="date" id="dob" name="dob" required /><br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Car Preferences</legend>
+        <label for="car">Favorite Car Model:</label><br />
+        <input
+          type="text"
+          id="car"
+          name="car"
+          placeholder="e.g., Tesla Model S"
+        /><br /><br />
+
+        <p>Fuel Type:</p>
+        <input type="radio" id="petrol" name="fuel" value="Petrol" required />
+        <label for="petrol">Petrol</label><br />
+        <input type="radio" id="diesel" name="fuel" value="Diesel" />
+        <label for="diesel">Diesel</label><br />
+        <input type="radio" id="electric" name="fuel" value="Electric" />
+        <label for="electric">Electric</label><br /><br />
+
+        <p>Extra Features:</p>
+        <input type="checkbox" id="gps" name="features" value="GPS" />
+        <label for="gps">GPS</label><br />
+        <input type="checkbox" id="sunroof" name="features" value="Sunroof" />
+        <label for="sunroof">Sunroof</label><br />
+        <input
+          type="checkbox"
+          id="heated"
+          name="features"
+          value="Heated Seats"
+        />
+        <label for="heated">Heated Seats</label><br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Message</legend>
+        <label for="message">Your Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="40"
+          placeholder="Write something..."
+        ></textarea
+        ><br /><br />
+      </fieldset>
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <p>&copy; 2025 PLP Student Project</p>
+  </body>
+</html>
